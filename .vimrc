@@ -84,6 +84,9 @@ filetype indent on
 " show statusbar
 set laststatus=2
 
+" setting for vim tab when editing makefile
+autocmd FileType make setlocal noexpandtab
+
 " }}}
 " map setting {{{
 " ==============================================
